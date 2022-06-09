@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { MusicComponent } from './music/music.component';
 import { LibraryComponent } from './library/library.component';
 import { MusicListComponent } from './music-list/music-list.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MusicListComponent } from './music-list/music-list.component';
     HeaderComponent,
     MusicComponent,
     LibraryComponent,
-    MusicListComponent
+    MusicListComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
